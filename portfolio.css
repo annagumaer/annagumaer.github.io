@@ -1,0 +1,66 @@
+@charset "UTF-8";
+#name {
+	font-family: "Operetta-12", serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 55px;
+}
+
+td ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 40px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "sans-serif";
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+#columns {
+	position: relative;
+	top: 75px;
+}
+
+
+div #column1 {
+	display: flex;
+	flex-direction: column;
+}
+
+div #column2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutme {
+	width: 1100px;
+	margin-left: 20%;
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.aboutpara {
+	padding: 50px;
+	width: 550px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', 'sans-serif';
+	line-height: 1.5;
+	font-size: 14pt;
+	float: right;
+}
+
+#aboutimage {
+	float: left;
+}
+
+#heythere {
+	
+	font-size: 24pt;
+		
+}
